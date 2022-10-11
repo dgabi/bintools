@@ -20,7 +20,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	maxlen := 16
 	symbols := map[Symbol]string{
-		Letters:  "qwertyuiopasdfghjklzxcvbnm",
+		Letters:  "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM",
 		Numbers:  "0123456789",
 		Specials: "~!@#$%^&*()_+",
 	}
